@@ -34,28 +34,28 @@ city: The city the customer lives in 🏙️
 signup_date: Date when the customer signed up 🗓️
 
 Steps Completed ✅
-Exploring the Data 🔍:
+1-Exploring the Data 🔍:
 
-Loaded the dataset and explored its structure.
+a-Loaded the dataset and explored its structure.
 
-Checked for missing values and identified data types.
+b-Checked for missing values and identified data types.
 
-Handling Missing Values 💧:
+2-Handling Missing Values 💧:
 
-Imputed missing numerical values using mean/median.
+a-Imputed missing numerical values using mean/median.
 
-Filled missing categorical values using the mode (most frequent value).
+b-Filled missing categorical values using the mode (most frequent value).
 
-Encoding Categorical Features 🏷️:
+3-Encoding Categorical Features 🏷️:
 
-Converted categorical variables into numerical representations using Label Encoding for binary features and One-Hot Encoding for multi-class features.
+a-Converted categorical variables into numerical representations using Label Encoding for binary features and One-Hot Encoding for multi-class features.
 
-Normalization/Standardization 📏:
+4-Normalization/Standardization 📏:
 
-Applied Standardization (Z-score scaling) to numerical features to ensure all features are on the same scale.
+a-Applied Standardization (Z-score scaling) to numerical features to ensure all features are on the same scale.
 
-Outlier Detection & Removal 🚫:
+5-Outlier Detection & Removal 🚫:
 
-Visualized outliers using Boxplots.
+a-Visualized outliers using Boxplots.
 
-Removed outliers based on the Interquartile Range (IQR).
+b-Removed outliers based on the Interquartile Range (IQR).
